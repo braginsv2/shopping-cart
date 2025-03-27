@@ -12,7 +12,7 @@ REST API для управления корзиной товаров в инте
 
 1. Клонируйте репозиторий:
 ```bash
-git clone <repository-url>
+git clone https://github.com/braginsv2/shopping-cart
 cd shopping-cart
 ```
 
