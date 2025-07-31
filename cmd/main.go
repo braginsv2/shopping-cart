@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"log"
-	"os"
 	"shopping-cart/internal/delivery/http"
 	"shopping-cart/internal/domain"
 	repo "shopping-cart/internal/repository/postgres"
