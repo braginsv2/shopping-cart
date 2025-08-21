@@ -24,6 +24,6 @@ type ProductService interface {
 	GetAllProducts() ([]domain.Product, error)
 	UpdateProduct(product *domain.Product) error
 	DeleteProduct(id uint) error
-
 } 
+
 
