@@ -11,6 +11,7 @@ type CartService interface {
 	ClearCart(userID uint) error
 }
 
+
 type OrderService interface {
 	CreateOrder(userID uint) (*domain.Order, error)
 	GetOrder(orderID uint) (*domain.Order, error)
@@ -25,5 +26,6 @@ type ProductService interface {
 	UpdateProduct(product *domain.Product) error
 	DeleteProduct(id uint) error
 } 
+
 
 
